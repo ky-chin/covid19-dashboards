@@ -1,11 +1,3 @@
-Dashboard #1
-https://nssac.bii.virginia.edu/covid-19/dashboard/
-
-Dashboard #2
-https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
-
-
- 
 # Mapping Coronavirus
 
 Smart dashboards are a critical tool for displaying information in a manner that is palatable and easy to navigate for its viewers. The graphical user interfaces give an at-a-glance view of a given topic at hand, with various components to highlight certain information or graphics. Dashboards are often used to track events in real time, more or less. They have become the norm in data display for more complex matters as opposed to say, a series of traditional maps.
@@ -23,7 +15,7 @@ Despite these setbacks, however, there are still many dashboards which utilize t
 
 ## COVID-19 Surveillance Dashboard
 
-![](img/dash1_uva_home.png)
+![](img/dash1_UVA_home.png)
 
 This dashboard was created by University of Virginia’s Biocomplexity Institute. It includes interactive maps which display up-to-date data on the spread of COVID-19. It allows people to see the world at a glance, or view specific countries. Its main purpose is in education, awareness, and accuracy.
 
@@ -33,17 +25,17 @@ This dashboard was created by University of Virginia’s Biocomplexity Institute
 
 The map has many features, many of which are fully interactive. The data itself is not limited to the number of cases as the title may suggest. Rather, the viewer has the option to view active cases, confirmed cases, deaths, and recovered cases. There is a slider which can be adjusted to show the chosen option on a selected date, and even the option to animate through the days to see the progression of the virus. This is useful in tracking the spread as well as gaining a better perspective on how a pandemic may come to be.
 
-![](img/dash1_uva_options.png)
+![](img/dash1_UVA_options.png)
 *Some of the options available for user customization.*
 
 Additionally, the viewer has the option to refine the region that they are viewing. There is a dropdown menu (on the leftmost panel) where the viewer can select a single country, or tabs (located in the upper left of the map panel) where a single continent may be selected.
 
-![](img/dash1_uva_refinecountry.png)
+![](img/dash1_UVA_refinecountry.png)
 *Dropdown menu where users can select a country of their choice, and view that country’s data.*
 
 The viewer also has the choice to switch from a case view to a testing view. Here, the map can display positive tests, the rate of positive tests as a percentage, and the total number of tests performed, in a similar format to the case counts. This map is more limited, as it only displays testing information for the United states.
 
-![](img/dash1_uva_postestrate.png)
+![](img/dash1_UVA_postestrate.png)
 *Display of the positive test rate (%) for the United States.*
 
 #### Map Charts and Analysis
@@ -55,7 +47,7 @@ Upon launch of the site, the dashboard will display basic data in the form of ba
 
 By clicking into the “data” tab, we get a more solid view of the numbers behind the graphics. The data tables will by default show the top 10 countries with the highest number of confirmed cases. Much like the charts, this can be fully customized to meet the interest and curiosity of viewers. You may display more or less items at a time, and rank by whichever category you prefer. There is also a more advanced query tool that can be used.
 
-![](img/dash1_uva_data.png)
+![](img/dash1_UVA_data.png)
 *Data shows tables of confirmed cases, deaths, and recoveries.*
 
 The dashboard is fully interactive, and so all of its features will update to reflect the current selection on the main map. This makes it incredibly easy to read and understand. You can see this in the example below, in which Canada is selected, and the appropriate information is updated to match.
