@@ -1,11 +1,3 @@
-Dashboard #1
-https://nssac.bii.virginia.edu/covid-19/dashboard/
-
-Dashboard #2
-https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
-
-
- 
 # Mapping Coronavirus
 
 Smart dashboards are a critical tool for displaying information in a manner that is palatable and easy to navigate for its viewers. The graphical user interfaces give an at-a-glance view of a given topic at hand, with various components to highlight certain information or graphics. Dashboards are often used to track events in real time, more or less. They have become the norm in data display for more complex matters as opposed to say, a series of traditional maps.
@@ -29,7 +21,7 @@ This dashboard was created by University of Virginia’s Biocomplexity Institute
 
 ### Features
 
-##### Map View
+#### Map View
 
 The map has many features, many of which are fully interactive. The data itself is not limited to the number of cases as the title may suggest. Rather, the viewer has the option to view active cases, confirmed cases, deaths, and recovered cases. There is a slider which can be adjusted to show the chosen option on a selected date, and even the option to animate through the days to see the progression of the virus. This is useful in tracking the spread as well as gaining a better perspective on how a pandemic may come to be.
 
@@ -46,7 +38,7 @@ The viewer also has the choice to switch from a case view to a testing view. Her
 ![](img/dash1_uva_postestrate.png)
 *Display of the positive test rate (%) for the United States.*
 
-##### Map Charts and Analysis
+#### Map Charts and Analysis
 
 Upon launch of the site, the dashboard will display basic data in the form of bar graphs, seen on the leftmost panel. The default view shows the total global confirmed cases, and total global active cases. The counts for deaths and recoveries can be toggled on, though their default is to be toggled off. All four of these can be toggled on or off at the user’s discretion. It is organized by day, to show worldwide trends for the last 30 days. This of course can be adjusted as well, even with an option to view cumulative counts, or daily counts.
 
