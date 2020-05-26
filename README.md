@@ -50,7 +50,7 @@ The viewer also has the choice to switch from a case view to a testing view. Her
 
 Upon launch of the site, the dashboard will display basic data in the form of bar graphs, seen on the leftmost panel. The default view shows the total global confirmed cases, and total global active cases. The counts for deaths and recoveries can be toggled on, though their default is to be toggled off. All four of these can be toggled on or off at the user’s discretion. It is organized by day, to show worldwide trends for the last 30 days. This of course can be adjusted as well, even with an option to view cumulative counts, or daily counts.
 
-![](img/dash1_uva_chart.png)
+![](img/dash1_UVA_chart.png)
 *Default display shows data as bar graphs of current and cumulative cases.*
 
 By clicking into the “data” tab, we get a more solid view of the numbers behind the graphics. The data tables will by default show the top 10 countries with the highest number of confirmed cases. Much like the charts, this can be fully customized to meet the interest and curiosity of viewers. You may display more or less items at a time, and rank by whichever category you prefer. There is also a more advanced query tool that can be used.
