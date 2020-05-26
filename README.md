@@ -1,3 +1,11 @@
+Dashboard #1
+https://nssac.bii.virginia.edu/covid-19/dashboard/
+
+Dashboard #2
+https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
+
+
+ 
 # Mapping Coronavirus
 
 Smart dashboards are a critical tool for displaying information in a manner that is palatable and easy to navigate for its viewers. The graphical user interfaces give an at-a-glance view of a given topic at hand, with various components to highlight certain information or graphics. Dashboards are often used to track events in real time, more or less. They have become the norm in data display for more complex matters as opposed to say, a series of traditional maps.
@@ -56,6 +64,27 @@ The dashboard is fully interactive, and so all of its features will update to re
 
 ### Architecture
 
+#### Libraries
+
+This dashboard uses [Bootstrap](https://getbootstrap.com/), [jQuery](https://jquery.com/), and [amCharts](https://www.amcharts.com/). Fonts used are from [Font Awesome](https://fontawesome.com/).
+```
+<!-- local css to layout -->
+	<link rel="stylesheet" href="css/layout-local.css" />
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">
+
+
+```
+
+#### Mobile Version
+
+While this map does support responsive design, it is not the most optimized as of yet. The mobile version of this web map does adjust to fit the screen of the mobile device, but all of the same elements are kept, which can create a clunky appearance. However the map and the charts/data are kept under separate tabs, so it is not too overwhelming. This aspect could be improved upon to be more streamlined and less sensitive, as it is easy to accidentally alter the elements from a single swipe.
+
+![](img/dash1_uva_mobile1.jpg) ![](img/dash1_uva_mobile2.jpg)
 
 ### Data
 
