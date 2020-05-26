@@ -56,6 +56,10 @@ The dashboard is fully interactive, and so all of its features will update to re
 
 ### Architecture
 
+#### Map Style
+
+The dashboard uses a choropleth map to represent the magnitude of cases, recoveries, etc. in each applicable region. There are many other dashboards which instead use a graduated symbol representation. This is good for large-scale, general imagery, however it could result in unintentional bias and visual deception.
+
 #### Libraries
 
 This dashboard uses [Bootstrap](https://getbootstrap.com/), [jQuery](https://jquery.com/), and [amCharts](https://www.amcharts.com/). Fonts used are from [Font Awesome](https://fontawesome.com/).
@@ -80,26 +84,32 @@ While this map does support responsive design, it is not the most optimized as o
 
 ### Data
 
+All of the data used is open source, and accessible online. It is largely vector data. The map is updated with any new case information every 2-3 hours. Testing data for the US is updated once per day. The UVA COVID-19 dashboard uses the following sources for their map’s data:
+-	[WHO](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/)
+-	[CDC](https://www.cdc.gov/coronavirus/2019-ncov/index.html)
+-	[ECDC](https://www.ecdc.europa.eu/en/geographical-distribution-2019-ncov-cases)
+-	[NHC](http://www.nhc.gov.cn/yjb/new_index.shtml)
+-	[1point3acres](https://www.1point3acres.com/)
+-	[DXY](https://3g.dxy.cn/newh5/view/pneumonia)
+-	[QQ](https://news.qq.com/zt2020/page/feiyan.htm)
+-	[JHU CSSE](https://github.com/CSSEGISandData/COVID-19)
+-	[ADCi](https://www.adci.com/adc-worldmap/)
+-	[ESRI](https://https//www.esri.com/en-us/home)
+-	[The Covid Tracking Project](https://covidtracking.com/data)
+
+By using many sources for various types of information, the project has high validity. The open source data is available for free online, and is accessible to anyone, so there is little to no chance of any manipulation.
+
+
 ### Reflection
+
+This dashboard is one of the most popular dashboards centered around the spread of COVID-19. It is a comprehensive display of any relevant and current information about the pandemic and its relevant rates, which many people are looking for in this time of great confusion.
+
+Some of the strengths of UVA's dashboard are its incredible amount and attention to detail. There are many sources and it is constantly being updated, making it a fairly reliable and unbiased source of information. Because of its smooth and functional design, the most people should not have many difficulties in viewing it and understanding what is being shown to them. The amount of flexibility and customization that is possible makes for an incredibly interactive map, which is one of the core attributes of a dashboard.
+
+That is not to say that it is without flaw, however. The map could be overwhelming for casual viewers, or people who are new to these types of maps. With growing fears about the pandemic, many people are looking for answers and could come across this dashboard. It has a lot of good information but may be an overload for someone who is unfamiliar with such displays. The digital divide (as well as design basics) has proven to us that simplicity is best. By taking on a more simplified structure, the dashboard could be much more user-friendly, for all types of people (not just the tech-savvy). One idea of how to ease the viewer into the dashboard could be a sort of home page or landing page, with which the viewer could pick what they want to view. The dashboard would then load to fit those preferences. This view could be changed at any time, similar to how it is now.
+
+The dashboard also has a link to a related dashboard, entitled the COVID-19 Medical Resource Demand Dashboard. It was also created by the University of Virginia's Biocomplexity Institute. It differs from the COVID-19 Dashboard in that it only displays data for the state of Virginia. However it is still interesting to look at,as it is very relevant to the spread of coronavirus, and should not necessarily be left out of conversation.
+
+Overall, this map is a very good example of what dashboards are capable of, and just how much they can aid in providing the necessary information.
 
 You can interact with the map [here](https://nssac.bii.virginia.edu/covid-19/dashboard/).
-
----------------
-
-## COVID-19 Dashboard
-
-Johns Hopkins University, Center for Systems Science and Engineering (CSSE)
-
-### Features
-
-### Architecture
-
-### Data
-
-### Reflection
-
-You can interact with the map [here](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6).
-
----------------
-
-## Concluding Remarks
