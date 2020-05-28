@@ -63,17 +63,13 @@ The dashboard uses a choropleth map to represent the magnitude of cases, recover
 #### Libraries
 
 This dashboard uses [Bootstrap](https://getbootstrap.com/), [jQuery](https://jquery.com/), and [amCharts](https://www.amcharts.com/). Fonts used are from [Font Awesome](https://fontawesome.com/).
+Refer to the linked stylesheets:
 ```
 <!-- local css to layout -->
 	<link rel="stylesheet" href="css/layout-local.css" />
-
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
 	<link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">
-
-
 ```
 
 #### Mobile Version
@@ -104,7 +100,7 @@ By using many sources for various types of information, the project has high val
 
 This dashboard is one of the most popular dashboards centered around the spread of COVID-19. It is a comprehensive display of any relevant and current information about the pandemic and its relevant rates, which many people are looking for in this time of great confusion.
 
-Some of the strengths of UVA's dashboard are its incredible amount and attention to detail. There are many sources and it is constantly being updated, making it a fairly reliable and unbiased source of information. Because of its smooth and functional design, the most people should not have many difficulties in viewing it and understanding what is being shown to them. The amount of flexibility and customization that is possible makes for an incredibly interactive map, which is one of the core attributes of a dashboard.
+Some of the strengths of UVA's dashboard are its incredible amount and attention to detail. There are many sources and it is constantly being updated, making it a fairly reliable and unbiased source of information. Because of its smooth and functional design, most people should not have many difficulties in viewing it and understanding what is being shown to them. The amount of flexibility and customization that is possible makes for an incredibly interactive map, which is one of the core attributes of a dashboard.
 
 That is not to say that it is without flaw, however. The map could be overwhelming for casual viewers, or people who are new to these types of maps. With growing fears about the pandemic, many people are looking for answers and could come across this dashboard. It has a lot of good information but may be an overload for someone who is unfamiliar with such displays. The digital divide (as well as design basics) has proven to us that simplicity is best. By taking on a more simplified structure, the dashboard could be much more user-friendly, for all types of people (not just the tech-savvy). One idea of how to ease the viewer into the dashboard could be a sort of home page or landing page, with which the viewer could pick what they want to view. The dashboard would then load to fit those preferences. This view could be changed at any time, similar to how it is now.
 
